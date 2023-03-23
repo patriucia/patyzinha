@@ -1,12 +1,42 @@
-HTML
+.cabecalho
+{
+    background-color: aquamarine
+}
+h1{
+        text-align: center;
+}
+h2{
+    background-color: brown;
+}
+image{
+    width: 20px;
+    background-image: linear-gradient(#383e58);
+}
+p {
+    font-size: 18px
+}
+.paragrafo1 {
+    font: size 30px;px;
+}
+.paragrafos {
+    font-size: 16px
+}
+.lista{
+    display: inline-block;
+    margin: 0 16px }
+}
+footer{ 
+    background-color: black; 
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="paty.css">
+    <link rel="stylesheet" href="lala.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -22,35 +52,10 @@ HTML
         <p> parágrafo 5 </p>
         <h3> título terciário </h3>
         <ul class="lista">
-    <img class="imagem" src="">
+    <a href="LINK DO SEU SITE">
     <ul class="lista">
         <li>Escola</li>
         <li>Estudante</li>
     </ul>
 </body>
 </html>
-  --------------------------------
-  CSS
-  .cabecalho
-{
-    background: color #383d58;
-    color: white
-
-}
-.imagem{
-    width: 20%
-
-}
-p {
-    font-size: 18px
-}
-.paragrafo1 {
-    font-size: 30px;
-}
-.paragrafos {
-    font-size: 16px
-}
-.lista{
-    display: inline-block;
-    margin: 0 16px;
-}
